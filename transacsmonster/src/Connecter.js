@@ -1,5 +1,5 @@
 import React from "react";
-const user={
+let user={
   name:'Carl',
   lastName:'Jean Pierre',
   age:'30',
