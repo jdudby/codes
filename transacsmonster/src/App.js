@@ -10,6 +10,7 @@ function App() {
       </header>
 
       <section id="login"></section>
+      <section id="comment"></section>
     </div>
 
   );
