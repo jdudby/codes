@@ -11,6 +11,7 @@ function App() {
 
       <section id="login"></section>
       <section id="comment"></section>
+        <section id="clock"></section>
     </div>
 
   );

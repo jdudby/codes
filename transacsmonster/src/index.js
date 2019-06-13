@@ -5,6 +5,8 @@ import App from './App';
 import Titre from "./Titre";
 import Connecter from "./Connecter";
 import Comments from "./Comments";
+import Clock from "./Clock";
+
 import * as serviceWorker from './serviceWorker';
 
 const comment={
@@ -28,6 +30,8 @@ ReactDOM.render(
   />,
  document.getElementById("comment")
 );
+
+ReactDOM.render(<Clock />, document.getElementById("clock") );
 
 
 // If you want your app to work offline and load faster, you can change
