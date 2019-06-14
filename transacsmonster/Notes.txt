@@ -1,2 +1,3 @@
 potentiallyMaliciousInput
 toLocaleTimeString()
+toLocaleDateString()
