@@ -2,10 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Titre from "./Titre";
-import Connecter from "./Connecter";
-import Comments from "./Comments";
-import Clock from "./Clock";
 
 import * as serviceWorker from './serviceWorker';
 
