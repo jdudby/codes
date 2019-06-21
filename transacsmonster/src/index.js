@@ -19,19 +19,7 @@ const comment={
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Titre />, document.getElementById('root2'));
-ReactDOM.render(<Connecter />, document.getElementById('login'));
-ReactDOM.render(
-  <Comments author={comment.author}
-  name={comment.name}
-  lastname={comment.lastname}
-  text={comment.text}
-  date={comment.date}
-  />,
- document.getElementById("comment")
-);
 
-ReactDOM.render(<Clock />, document.getElementById("clock") );
 
 
 // If you want your app to work offline and load faster, you can change

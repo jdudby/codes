@@ -1,3 +1,18 @@
 potentiallyMaliciousInput
 toLocaleTimeString()
 toLocaleDateString()
+
+
+ReactDOM.render(<Titre />, document.getElementById('root2'));
+ReactDOM.render(<Connecter />, document.getElementById('login'));
+ReactDOM.render(
+  <Comments author={comment.author}
+  name={comment.name}
+  lastname={comment.lastname}
+  text={comment.text}
+  date={comment.date}
+  />,
+ document.getElementById("comment")
+);
+
+ReactDOM.render(<Clock />, document.getElementById("clock") );
