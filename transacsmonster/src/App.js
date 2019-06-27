@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Reception from "./components/Reception";
@@ -20,11 +19,13 @@ const Home=()=>{
   );
 }
 
+
   return (
 
     <div className="App">
       <header className="App-header" id="root2">
-        <h1>Transacs Monsters</h1>
+        <h1 className="taille1">Transacs Monsters</h1>
+        <h6 className="taille">Let us manage your warehouse efficiently !</h6>
       </header>
 
       <BrowserRouter>

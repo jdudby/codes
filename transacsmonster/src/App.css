@@ -9,14 +9,15 @@
 }
 
 .App-header {
-  background-color: #abc123;
+  background-color: #fff;
   min-height: 3vh;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
   font-size: calc(3px + 2vmin);
-  color: white;
+  color: #224136;
+  padding: 0 5px 0 30px;
 }
 
 .App-link {
@@ -30,4 +31,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.taille{
+padding:0;
+margin:15px 0;
+font-style:italic;
+color:#2A572C;
+}
+
+.taille1{
+  padding:3px;
+  margin: 3px;
 }

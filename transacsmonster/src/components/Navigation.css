@@ -1,4 +1,10 @@
 .format{
-  align-items:center;
-
+ display:flex;
+justify-content: space-between;
+font-size: 0.9em;
+padding: 0 15px 0 15px;
+font-weight:bold;
+min-height:5vh;
+background-color: #ddf123;
+border-top:7px #224136 outset;
 }

@@ -5,15 +5,6 @@ import App from './App';
 
 import * as serviceWorker from './serviceWorker';
 
-const comment={
-  author : {
-    name:"Gladysse",
-    lastname:"VICTORIN",
-  },
-  text:"ceci est un conseil d'ami. Soyez bienveillant avec tout le monde",
-  date:new Date().toLocaleDateString()
-};
-
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
